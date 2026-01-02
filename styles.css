@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: blueviolet;
+  
+}
+
+/* SEARCH CONTAINER */
+.container{
+  background-color: aliceblue;
+  width: 80vw;
+  max-width: 37.5em;
+  padding: 3em 2.5em;
+  margin: 3em auto;
+
+  border-radius: 0.62em;
+  box-shadow: 0 1.25em 1.8em rgba(8,21,65,0.25);
+}
+
+.search-wrapper{
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1.25em;
+}
+
+.search-wrapper input{
+  border: none;
+  border-bottom: 2px solid blueviolet;
+  outline: none;
+  font-size: 1em;
+  padding: 0.4em;
+}
+
+.search-wrapper button,
+#explore-btn{
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 1.5em;
+  padding: 0.8em;
+  cursor: pointer;
+}
+
+#explore-btn{
+  width: 100%;
+  margin-top: 1em;
+}
+
+/* SINGLE COUNTRY RESULT */
+#result{
+  margin-top: 2em;
+}
+
+.flag-img{
+  width: 45%;
+  display: block;
+  margin: 1.5em auto;
+}
+
+#result h2{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+/* COUNTRY DETAILS (FIXED ALIGNMENT) */
+.data-wrapper{
+  margin-bottom: 0.6em;
+  text-align: center;
+}
+
+.data-wrapper h4{
+  display: inline;
+  font-weight: 600;
+  color: black;
+}
+
+.data-wrapper span{
+  display: inline;
+  margin-left: 6px;
+  color: #4f4d4d;
+}
+
+/* ALL COUNTRIES GRID */
+#cards-wrapper{
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* COUNTRY CARD */
+.country-card{
+  background-color: aliceblue;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.country-card img{
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.country-card h4{
+  margin-top: 10px;
+}
