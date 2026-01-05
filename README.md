@@ -7,8 +7,7 @@ This project showcases my practical understanding of **HTML, CSS, JavaScript, RE
 ---
 
 ## 🚀 Live Demo
-👉 *(Add your deployed link here)*  
-Example: https://yourusername.github.io/country-guide
+(https://rest-countries-api-application.vercel.app/)
 
 ---
 
