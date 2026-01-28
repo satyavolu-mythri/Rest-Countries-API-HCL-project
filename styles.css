@@ -44,6 +44,11 @@ body{
   border-radius: 1.5em;
   padding: 0.8em;
   cursor: pointer;
+  
+}
+
+#explore-btn:hover{
+  background-color: #5b29b0;
 }
 
 #explore-btn{
@@ -112,4 +117,24 @@ body{
 
 .country-card h4{
   margin-top: 10px;
+}
+#map{
+  height: 400px;
+  width: 100%;
+  margin-top: 20px;
+  display: none;
+  
+}
+#map-btn {
+  background: #7c3aed;
+  color: white;
+  border-radius: 20px;
+  padding: 7px;
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+#map-btn:hover{
+  background-color: #5b29b0;
 }
