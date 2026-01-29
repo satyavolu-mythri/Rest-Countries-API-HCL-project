@@ -6,7 +6,15 @@
 }
 
 body{
+  margin: 0;
+  padding: 0;
   background-color: blueviolet;
+
+  background-image: url("worldMap.jpg");
+  background-size: cover;       /* fills screen */
+  background-position: center;  /* keeps map centered */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* slight parallax feel */
   
 }
 
